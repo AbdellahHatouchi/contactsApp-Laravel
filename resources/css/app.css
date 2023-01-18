@@ -1,0 +1,27 @@
+.root {
+    height: 100vh;
+}
+.cardContacts {
+    overflow: hidden;
+}
+.cardTitle{
+    background-color: #4244c1;
+}
+
+.cardPaginate p , .cardPaginate ul{
+    margin: 0 !important;
+}
+
+@media screen and (max-width:590px) {
+    .tableContent {
+        max-width: 600px;
+        overflow-x: scroll;
+    }
+    .tableContent::-webkit-scrollbar {
+        width: 0px !important;
+    }
+    .tableContent::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        background-color: #4244c1;
+    }
+}
